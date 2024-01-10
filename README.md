@@ -28,6 +28,8 @@ in the palette to a block of pixels in the base image. It collects these
 approximations in an image buffer and then saves to a file. 
 
 # Common Questions
+- Do I need to bring my own palette?
+  - No, there is a default one 
 - Can I pixelate a whole directory of photos? 
   - Yes
 - What are the supported file formats? 
@@ -39,7 +41,7 @@ approximations in an image buffer and then saves to a file.
 - Can I change the resolution of the base image? 
   - yes with the `--size` flag
 - What is the resulting size of my image? 
-  - It's scaled down to your pixel size by default. The `--large` flag will persist the original image size.
+  - It's scaled down to your pixel size by default. The `--large` flag will persist the original image size
 
 # Contributers
 @MrVintage710
